@@ -1,0 +1,91 @@
+========================================
+  ORDEN DE REVISIÓN - 01 Hola Mundo
+  Master Python - Udemy
+========================================
+
+Sigue este orden de menor a mayor complejidad.
+Cada sección agrupa conceptos relacionados.
+
+----------------------------------------
+BLOQUE 1: TIPOS DE DATOS Y VARIABLES
+----------------------------------------
+ 1. quotes.py              → Strings: comillas simples, dobles y triples
+ 2. type_python.py         → Tipado dinámico y conversión de tipos
+ 3. my_numbers.py          → int, float, complex y Decimal
+ 4. none_null.py           → None / null y evaluación de verdad
+
+----------------------------------------
+BLOQUE 2: OPERADORES
+----------------------------------------
+ 5. math_operations.py     → Operadores aritméticos básicos (+, -, *, /, //, %, **)
+ 6. precedence_math_op.py  → Precedencia de operadores y paréntesis
+ 7. unary_operators.py     → Operadores unarios (+ y -)
+ 8. assignment_operators.py→ Operadores de asignación compuestos (+=, -=, *=, …)
+ 9. relational_operators.py→ Operadores relacionales (==, !=, <, >, <=, >=)
+10. logical_operators.py   → Lógica booleana (and, or, not)
+11. identity_operators.py  → Operadores de identidad (is, is not) vs igualdad
+12. membership_operators.py→ Operadores de pertenencia (in, not in)
+
+----------------------------------------
+BLOQUE 3: ENTRADA / SALIDA
+----------------------------------------
+13. input_data2.py         → Entrada de usuario simple y salida formateada
+14. input_data.py          → Entrada de usuario con manejo de errores (try/except)
+
+----------------------------------------
+BLOQUE 4: FLUJO DE CONTROL
+----------------------------------------
+15. if_statements.py       → if / elif / else
+16. ternary_operator.py    → Expresión ternaria (valor_si_true if cond else valor_si_false)
+17. ternary_operator_max.py→ Ternario: encontrar el máximo de cuatro números
+18. case.py                → match/case (Python 3.10+) como alternativa a if/elif
+19. while_statements.py    → Bucles while, contador y break
+20. label_control.py       → Instrucción continue para saltar iteraciones
+21. for_statements.py      → Bucles for, range(), listas, anidados e iteración de strings
+22. ternary_operator_max_while.py → Combinación: while + input + ternario
+
+----------------------------------------
+BLOQUE 5: STRINGS AVANZADO
+----------------------------------------
+23. str_methods.py         → Métodos de string (upper, lower, strip, replace, split, …)
+24. slicing.py             → Slicing (inicio:fin:paso) y reversión de strings
+25. format.py              → Formateo con f-strings y .format()
+
+----------------------------------------
+BLOQUE 6: MATEMÁTICAS Y ALEATORIEDAD
+----------------------------------------
+26. math_sample.py         → Módulo math (abs, max, min, ceil, floor, sqrt, sin, cos, …)
+27. random_sample.py       → Módulo random (random(), randint(), uniform(), …)
+
+----------------------------------------
+BLOQUE 7: FECHAS Y TIEMPO
+----------------------------------------
+28. date_time_today.py     → Fecha actual y propiedades (year, month, day)
+29. datetime_now.py        → Objetos datetime, strftime() y componentes
+30. datetime_str.py        → Parsear strings con strptime() y soporte de locale
+31. compare_date.py        → Comparación de fechas y aritmética con timedelta
+32. calendar_python.py     → Módulo calendar (años bisiestos, display de mes, replace())
+33. timestamp.py           → Medir tiempo transcurrido con time.perf_counter()
+
+----------------------------------------
+BLOQUE 8: SISTEMA Y ENTORNO
+----------------------------------------
+34. os_getenv.py           → Variables de entorno (os.getenv) y PID del proceso
+35. platform_sample.py     → Información del sistema, versión de Python y sys.argv
+36. system_sample.py       → stdout/stderr, manejo de excepciones y códigos de salida
+
+----------------------------------------
+BLOQUE 9: VERIFICACIÓN DE TIPOS Y MÓDULOS
+----------------------------------------
+37. is_instance.py         → isinstance() para clases propias y herencia
+38. other.py               → Importación de módulos y llamada a funciones externas
+39. main.py                → Patrón __name__ == '__main__'
+
+----------------------------------------
+BLOQUE 10: CASO PRÁCTICO
+----------------------------------------
+40. logical_operators_login.py → Sistema de login con operadores lógicos y bucles
+
+========================================
+TOTAL: 40 archivos | 10 bloques temáticos
+========================================

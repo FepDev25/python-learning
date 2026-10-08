@@ -1,0 +1,220 @@
+# ==================================================
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Instaladores / empaquetado
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+MANIFEST
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# uv / Poetry / PDM / pipenv
+.python-version
+poetry.lock
+.pdm-python
+.pdm.toml
+.uv/
+uv.lock
+Pipfile.lock
+__pypackages__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+*.ipynb_checkpoints/
+# Descomentar si no quieres versionar los notebooks
+# *.ipynb
+
+# pytest / coverage / tox / nox
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+*.py,cover
+coverage.xml
+nosetests.xml
+
+# mypy / ruff / pyright / pyre
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+.pyright/
+.typing/
+.pyc
+
+# Documentación generada
+docs/_build/
+
+# PyInstaller / Cython
+*.manifest
+*.spec
+cython_debug/
+
+# TensorFlow / Keras / ML
+*.h5
+*.hdf5
+*.pb
+checkpoint
+.pytest_cache/
+saved_model/
+
+# Django / Flask
+db.sqlite3
+db.sqlite3-journal
+*.log
+instance/
+.webassets-cache
+local_settings.py
+.heroku/
+.scrapy/
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy / Celery
+.scrapy/
+celerybeat-schedule
+celerybeat.pid
+
+# ==================================================
+# Node / Frontend (React + Vite + pnpm)
+# ==================================================
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+.npm/
+.npmrc
+.yarn/
+.yarn-integrity
+yarn-error.log*
+pnp.*
+lerna-debug.log*
+
+# Builds de Vite / React / Next
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+.cache/
+*.local
+
+# Vite
+.vite/
+vite.config.*.timestamp-*
+stats.html
+
+# Variables de entorno frontend
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Logs frontend
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing frontend
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# ESLint / Prettier
+.eslintcache
+.prettiercache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Tailwind
+.tailwindcss/
+
+# ==================================================
+# Editores / IDEs / SO
+# ==================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*~
+.project
+.classpath
+.settings/
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==================================================
+# Secretos
+# ==================================================
+*.pem
+*.key
+*.crt
+secrets/
+.secrets/
